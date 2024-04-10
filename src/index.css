@@ -1,0 +1,57 @@
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Ari"al, sans-serif; */
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: hsl(220, 15%, 55%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p, div, img, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  height: 100vh;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.card {
+  width: 320px;
+  /* height: 497px; */
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card-img{
+  width: 100%;
+  border-radius: 10px;
+}
+.card-body {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.card-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-description {
+  margin-top: 16px;
+  font-size: 18px;
+  color: gray;
+  font-weight: 400;
+  padding-bottom: 28px;
+}
