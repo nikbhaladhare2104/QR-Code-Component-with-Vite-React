@@ -6,6 +6,7 @@ function App() {
       <div className="card">
         <img 
           src='/images/qr-code.png'
+          alt="QR-Code Image which will take you to Frontend mentor website"
           className="card-img"
         />
         <div className="card-body">
